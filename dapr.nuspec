@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>dapr</id>
+    <version>1.8.0</version>
+    <packageSourceUrl>https://github.com/dapr/cli</packageSourceUrl>
+    <owners>Guy Barrette</owners>
+    <!-- ============================== -->
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <!-- This section is about the software itself -->
+    <title>dapr</title>
+    <authors>The Dapr contributors</authors>
+    <!-- projectUrl is required for the community feed -->
+    <projectUrl>https://github.com/dapr/cli</projectUrl>
+    <copyright>2022 The Dapr contributors</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/dapr/cli/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://docs.dapr.io/reference/cli/</docsUrl>
+    <tags>dapr</tags>
+    <summary>dapr is a command line interface for Dapr</summary>
+    <description>The dapr CLI allows you to setup Dapr on your local dev machine or on a Kubernetes cluster, provides debugging support, and launches and manages Dapr instances.  64bit only.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
