@@ -3,7 +3,6 @@
   <metadata>
     <id>dapr</id>
     <version>1.8.0</version>
-    <packageSourceUrl>https://github.com/K8sAcademy/dapr-chocolatey</packageSourceUrl>
     <owners>Guy Barrette</owners>
     <!-- ============================== -->
 
