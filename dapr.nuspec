@@ -11,6 +11,8 @@
     <title>dapr</title>
     <authors>The Dapr contributors</authors>
     <!-- projectUrl is required for the community feed -->
+    <packageSourceUrl>https://github.com/K8sAcademy/dapr-chocolatey</packageSourceUrl>
+    <bugTrackerUrl>https://github.com/K8sAcademy/dapr-chocolatey/issues</bugTrackerUrl>
     <projectUrl>https://github.com/dapr/cli</projectUrl>
     <copyright>2022 The Dapr contributors</copyright>
     <licenseUrl>https://raw.githubusercontent.com/dapr/cli/master/LICENSE</licenseUrl>
